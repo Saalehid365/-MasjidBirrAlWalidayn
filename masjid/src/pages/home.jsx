@@ -1,10 +1,16 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Hero from "../components/homeCom/hero";
+import Regular from "../components/homeCom/regular";
+import Build from "../components/homeCom/build";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Hero />
+      <Regular />
+      <Build />
+      <Footer />
     </div>
   );
 };

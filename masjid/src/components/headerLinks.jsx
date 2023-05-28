@@ -9,33 +9,33 @@ const HeaderLinks = () => {
     >
       <Link
         to="/"
-        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2"
+        className=" cursor-pointer hover:border-b-2 hover:border-magnolia border-eerie border-b-2 "
       >
         Home
       </Link>
       <Link
         to="appeal"
-        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2"
+        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2 cursor-pointer"
       >
         Appeal
       </Link>
       <Link
         to="waysToDonate"
-        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2"
+        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2 cursor-pointer"
       >
         Ways to Donate
       </Link>
-      <Link className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2">
+      <Link
+        to="about"
+        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2 cursor-pointer"
+      >
         About
       </Link>
       <Link
         to="contactUs"
-        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2"
+        className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2 cursor-pointer"
       >
         Contact us
-      </Link>
-      <Link className="hover:border-b-2 hover:border-magnolia border-eerie border-b-2">
-        Lessons
       </Link>
     </div>
   );

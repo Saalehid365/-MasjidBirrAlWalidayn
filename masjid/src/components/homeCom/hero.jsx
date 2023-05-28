@@ -18,11 +18,11 @@ const Hero = () => {
             Donate
           </Link>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pr-12 ">
           <img
             src={masjid}
             alt="masjid"
-            className="w-4/5 h-3/5 bg rounded-md  shadow-white shadow-inner "
+            className="w-full h-3/5 bg rounded-3xl shadow-white shadow-inner "
           ></img>
         </div>
       </div>

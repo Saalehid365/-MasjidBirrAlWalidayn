@@ -8,9 +8,9 @@ const RegularLink = () => {
         <h2 className="text-5xl font-bold w-2/4 text-start">
           Set-up a Direct Debit or a Monthly PayPal Subscription
         </h2>
-        <p className="pt-12 text-start text-2xl">Donate monthly</p>
+        <p className="pt-12 text-start text-2xl underline">Donate monthly</p>
         <div className="flex flex-col justify-evenly items-center w-1/3 h-96">
-          <h3 className="text-6xl font-bold">£5 or £10</h3>
+          <h3 className="text-5xl font-bold">£5 or £10</h3>
           <h3>Per Month</h3>
           <button className="flex bg-blue-400 w-full h-10 items-center justify-center rounded-md">
             <FaPaypal />

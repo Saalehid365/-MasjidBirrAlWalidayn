@@ -1,7 +1,14 @@
 import React from "react";
+import Main from "../components/aboutCom/main";
+import Footer from "../components/footer";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Main />
+      <Footer />
+    </div>
+  );
 };
 
 export default About;

@@ -5,8 +5,8 @@ import Id365 from "./id365";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="flex h-96 justify-evenly items-start pt-12">
+    <div className="border-t-2">
+      <div className="flex h-72 justify-evenly items-start pt-6 ">
         <div className="flex flex-col justify-evenly h-60">
           <h3 className="font-bold text-2xl">Support</h3>
           <Link>About</Link>

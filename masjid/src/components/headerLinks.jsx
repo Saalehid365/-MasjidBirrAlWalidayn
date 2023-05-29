@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HeaderLinks = () => {
   return (
     <div
-      className="flex justify-evenly w-3/5 font-serif
+      className="flex justify-evenly w-3/5 font-serif md:hidden
     "
     >
       <Link

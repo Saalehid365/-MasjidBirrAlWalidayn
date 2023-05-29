@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-screen">
       <Hero />
       <Regular />
       <Build />

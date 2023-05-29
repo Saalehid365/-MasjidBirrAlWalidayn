@@ -3,7 +3,7 @@ import { FaEnvelope, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const SocialLinks = () => {
   return (
-    <div className="flex w-96 justify-evenly text-xl">
+    <div className="flex w-96 justify-evenly text-xl md:hidden">
       <FaTwitter className="hover:text-white hover:cursor-pointer hover:scale-125" />
       <FaInstagram className="hover:text-white hover:cursor-pointer hover:scale-125" />
       <FaYoutube className="hover:text-white hover:cursor-pointer hover:scale-125" />

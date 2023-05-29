@@ -7,6 +7,7 @@ import ContactUs from "./pages/contactUs";
 import Lessons from "./pages/lessons";
 import Navbar from "./components/navbar";
 import Appeal from "./pages/appeal";
+import Id365 from "./components/id365";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="contactUs" element={<ContactUs />} />
           <Route path="lessons" element={<Lessons />} />
         </Routes>
+        <Id365 />
       </Router>
     </div>
   );

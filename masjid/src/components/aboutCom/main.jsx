@@ -1,7 +1,6 @@
 import React from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Footer from "../footer";
 
 const Main = () => {
   return (
@@ -28,9 +27,6 @@ const Main = () => {
             <h4 className="md:text-2xl ">Get in Touch</h4>
             <FaArrowAltCircleRight className="text-xs " />
           </Link>
-        </div>
-        <div>
-          <img></img>
         </div>
       </div>
     </div>

@@ -5,11 +5,11 @@ import Footer from "../footer";
 
 const Main = () => {
   return (
-    <div className="bg-eerie h-screen text-magnolia flex flex-col items-center pt-24">
+    <div className="bg-eerie h-screen text-magnolia flex flex-col items-center pt-24 ">
       <h2 className="text-5xl underline font-bold">About </h2>
       <div className="flex">
-        <div className="w-2/4 flex flex-col items-start pl-24 h-96 justify-evenly pt-12">
-          <h2 className="text-5xl font-bold underline decoration-slate-800">
+        <div className="w-2/4 flex flex-col items-start pl-24 h-96 justify-evenly pt-12 md:w-full md:px-4">
+          <h2 className="text-5xl font-bold underline decoration-slate-800 md:text-4xl">
             Masjid Birr al-Walidayn
           </h2>
           <h3 className="text-start text-2xl">
@@ -23,9 +23,9 @@ const Main = () => {
           </h3>
           <Link
             to="/contactUs"
-            className="underline flex items-center w-28 justify-between cursor-pointer"
+            className="underline flex items-center w-28 justify-between cursor-pointer md:w-36"
           >
-            <h4>Get in Touch</h4>
+            <h4 className="md:text-2xl ">Get in Touch</h4>
             <FaArrowAltCircleRight className="text-xs " />
           </Link>
         </div>

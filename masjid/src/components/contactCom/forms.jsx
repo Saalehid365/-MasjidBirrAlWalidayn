@@ -2,7 +2,7 @@ import React from "react";
 
 const Forms = () => {
   return (
-    <form className="w-4/12 text-eerie h-full">
+    <form className="w-4/12 text-eerie h-full md:w-full md:px-4">
       <div className="flex flex-col items-start">
         <label className="text-magnolia">
           Name <span className="text-gray-600"> &#40;required &#41;</span>

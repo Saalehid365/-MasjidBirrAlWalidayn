@@ -5,7 +5,7 @@ import Map from "../components/contactCom/map";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className="">
       <Main />
 
       <Map />

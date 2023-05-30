@@ -2,7 +2,7 @@ import React from "react";
 
 const Map = () => {
   return (
-    <div className=" pb-4 ">
+    <div className=" pb-4">
       <div className=" h-96 w-full">
         <iframe
           width="100%"

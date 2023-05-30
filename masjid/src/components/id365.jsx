@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Id365 = () => {
   return (
-    <div className="flex justify-evenly pb-4 md:flex-col md:pt-6 md:pb-2 md:items-center">
+    <div className="flex justify-evenly pb-4 md:flex-col md:pt-4 md:pb-2 md:items-center md:bg-eerie md:text-magnolia">
       <div className="flex items-center w-96 justify-evenly">
         <FaRegCopyright />
         <h3>2023 </h3>

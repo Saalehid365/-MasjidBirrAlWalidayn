@@ -5,7 +5,7 @@ const RegularLink = () => {
   return (
     <div className="bg-eerie text-magnolia pl-24 pt-12 md:pl-0">
       <div className="">
-        <h2 className="text-5xl font-bold w-2/4 text-start md:w-full md:text-center">
+        <h2 className="text-5xl font-bold w-2/4 text-start md:w-full md:text-center md:text-4xl md:px-4">
           Set-up a Direct Debit or a Monthly PayPal Subscription
         </h2>
         <p className="pt-12 text-start text-2xl underline md:text-center">

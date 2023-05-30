@@ -5,7 +5,7 @@ const Bankdetails = () => {
   return (
     <div className="bg-eerie pt-24 flex justify-evenly items-center pb-24">
       <div className="text-magnolia flex flex-col items-start h-72 justify-evenly md:items-center md:px-1">
-        <h3 className="text-4xl font-bold md:text-5xl md:pb-6">
+        <h3 className="text-4xl font-bold md:text-4xl md:pb-6">
           Transfer to our Bank
         </h3>
         <h4 className="text-2xl">Bank Account Name: Almusa3ada</h4>

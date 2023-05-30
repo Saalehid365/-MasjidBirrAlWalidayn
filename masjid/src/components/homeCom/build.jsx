@@ -12,11 +12,11 @@ const Build = () => {
         ></img>
       </div>
       <div className="text-magnolia flex flex-col items-center justify-evenly w-2/3 pr-12 md:pr-0 md:w-full">
-        <h2 className="text-7xl font-bold md:text-5xl ">
+        <h2 className="text-7xl font-bold md:text-5xl md:px-4">
           Building a beautiful place of worship
         </h2>
-        <div className="flex flex-col md:px-2">
-          <h3 className="text-3xl ">
+        <div className="flex flex-col md:px-4">
+          <h3 className="text-3xl md:text-2xl ">
             Uthman ibn Affan رَضِيَ الله عَنْهُ : reported: The Messenger of
             Allah, صلى الله عليه وسلم , said, “Whoever builds a mosque for
             Allah, Allah will build for him a house like it in Paradise.”

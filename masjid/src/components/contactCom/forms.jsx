@@ -28,7 +28,7 @@ const Forms = () => {
           className="w-full text-eerie rounded-lg mt-2 pl-2"
         ></textarea>
       </div>
-      <div className="pt-12">
+      <div className="pt-12 md:pb-12">
         <button className="bg-maya w-40 rounded-md h-10 font-bold cursor-pointer">
           Submit
         </button>

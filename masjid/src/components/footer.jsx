@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="border-t-2 ">
-      <div className="flex h-72 justify-evenly items-start pt-6 md:flex-col md:items-center">
+      <div className="flex h-72 justify-evenly items-start pt-6 md:flex-col md:items-center md:pb-6 md:h-full">
         <div className="flex flex-col justify-evenly h-60 md:hidden">
           <h3 className="font-bold text-2xl">Support</h3>
           <Link>About</Link>

@@ -13,7 +13,14 @@ const Id365 = () => {
       </div>
       <div className="flex w-72 justify-evenly md:w-60 md:justify-center">
         <h3>Powered by:</h3>
-        <Link className="text-neon md:ml-2">Idesign365</Link>
+        <a
+          href="https://idevelop365.co.uk"
+          target="_blank"
+          rel="noreferrer"
+          className="text-neon md:ml-2"
+        >
+          Idesign365
+        </a>
       </div>
     </div>
   );

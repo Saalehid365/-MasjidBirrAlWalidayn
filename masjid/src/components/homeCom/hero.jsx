@@ -14,9 +14,14 @@ const Hero = () => {
             We cant wait to complete the masjid which will allow you to sit and
             benefit in one of the house's of Allaah
           </p>
-          <Link className="text-center bg-maya w-24 text-eerie rounded-md mt-6 p-2 font-bold">
+          <a
+            href="https://paypal.me/almusa3ada"
+            target="_blank"
+            rel="noreferrer"
+            className="text-center bg-maya w-24 text-eerie rounded-lg mt-6 p-2 font-bold "
+          >
             Donate
-          </Link>
+          </a>
         </div>
         <div className="flex items-center justify-center pr-12 md:pr-0">
           <img

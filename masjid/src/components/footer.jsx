@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaEnvelope,
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -34,10 +28,33 @@ const Footer = () => {
         <div className="md:pt-6">
           <h3 className="font-bold text-2xl md:pb-4">Follow us</h3>
           <div className="flex pt-20 w-60 justify-evenly md:pt-0">
-            <FaTwitter className="text-2xl hover:scale-125 cursor-pointer" />
-            <FaInstagram className="text-2xl hover:scale-125 cursor-pointer" />
-            <FaFacebook className="text-2xl hover:scale-125 cursor-pointer" />
-            <FaEnvelope className="text-2xl hover:scale-125 cursor-pointer" />
+            <a
+              href="https://twitter.com/almusa3ada"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter className="text-2xl hover:scale-125 cursor-pointer" />
+            </a>
+            <a
+              href="https://www.instagram.com/almusa3ada/?hl=en-gb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram className="text-2xl hover:scale-125 cursor-pointer" />
+            </a>
+
+            <a
+              href="https://m.facebook.com/people/Al-Musaada/100081314228196/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook className="text-2xl hover:scale-125 cursor-pointer" />
+            </a>
+            <button
+              onClick={() => (window.location = "mailto:yourmail@domain.com")}
+            >
+              <FaEnvelope className="text-2xl hover:scale-125 cursor-pointer" />
+            </button>
           </div>
         </div>
       </div>

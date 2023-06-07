@@ -15,9 +15,14 @@ const Waysto = () => {
         <h4 className="text-3xl md:text-2xl">
           Pay using Apple Pay, Paypal or Card
         </h4>
-        <button className="bg-maya text-eerie w-40 h-12 rounded-md">
+        <a
+          href="https://paypal.me/almusa3ada"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-maya text-eerie w-40 h-12 rounded-md"
+        >
           Donation Form
-        </button>
+        </a>
       </div>
     </div>
   );

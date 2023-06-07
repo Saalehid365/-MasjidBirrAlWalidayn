@@ -11,14 +11,24 @@ const Regular = () => {
         The money will help to complete and maintain the masjid.
       </h4>
       <div className="flex justify-between text-magnolia w-3/5 md:flex-col md:h-28">
-        <button className="w-96 h-12 rounded-sm bg-eerie flex items-center justify-center md:w-60">
+        <a
+          href="https://paypal.me/almusa3ada"
+          target="_blank"
+          rel="noreferrer"
+          className="w-96 h-12 rounded-md bg-eerie flex items-center justify-center md:w-60"
+        >
           <FaPaypal className="text-3xl mr-2" />
           Paypal Subscribe
-        </button>
-        <button className="w-96 h-12 rounded-sm bg-eerie flex items-center justify-center md:w-60">
+        </a>
+        <a
+          href="https://paypal.me/almusa3ada"
+          target="_blank"
+          rel="noreferrer"
+          className="w-96 h-12 rounded-md bg-eerie flex items-center justify-center md:w-60 "
+        >
           <FaCreditCard className="text-3xl mr-2" />
           Paypal Subscribe
-        </button>
+        </a>
       </div>
     </div>
   );

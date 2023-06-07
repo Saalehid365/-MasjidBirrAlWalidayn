@@ -14,10 +14,15 @@ const RegularLink = () => {
         <div className="flex flex-col justify-evenly items-center w-1/3 h-96 md:w-full md:px-6">
           <h3 className="text-5xl font-bold">£5 or £10</h3>
           <h3>Per Month</h3>
-          <button className="flex bg-blue-400 w-full h-10 items-center justify-center rounded-md">
+          <a
+            href="https://paypal.me/almusa3ada"
+            target="_blank"
+            rel="noreferrer"
+            className="flex bg-blue-400 w-full h-10 items-center justify-center rounded-md"
+          >
             <FaPaypal />
             Subscribe
-          </button>
+          </a>
           <button className="flex bg-gray-700 w-full h-10 items-center justify-center rounded-md">
             <FaCreditCard />
             Debit or Credit Card
@@ -27,7 +32,7 @@ const RegularLink = () => {
           </button>
           <div className="flex items-center">
             <FaPaypal className="text-3xl mr-4" />
-            <h2 className="text-4xl md:text-2xl">almusa3ada@gmail.com</h2>
+            <h2 className="text-3xl md:text-2xl">almusa3ada@gmail.com</h2>
           </div>
         </div>
         <div className=" flex justify-center md:"></div>

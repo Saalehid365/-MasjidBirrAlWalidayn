@@ -16,7 +16,7 @@ const Build = () => {
           Building a beautiful place of worship
         </h2>
         <div className="flex flex-col md:px-4">
-          <h3 className="text-3xl md:text-2xl ">
+          <h3 className="text-2xl md:text-2xl ">
             Uthman ibn Affan رَضِيَ الله عَنْهُ : reported: The Messenger of
             Allah, صلى الله عليه وسلم , said, “Whoever builds a mosque for
             Allah, Allah will build for him a house like it in Paradise.”

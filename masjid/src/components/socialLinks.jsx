@@ -8,7 +8,7 @@ const SocialLinks = () => {
         <FaTwitter className="hover:text-white hover:cursor-pointer hover:scale-125" />
       </a>
       <a
-        href="https://www.instagram.com/almusa3ada/?hl=en-gb"
+        href="https://www.instagram.com/almusa3ada_/?hl=en-gb"
         target="_blank"
         rel="noreferrer"
       >

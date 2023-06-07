@@ -19,7 +19,7 @@ const Waysto = () => {
           href="https://paypal.me/almusa3ada"
           target="_blank"
           rel="noreferrer"
-          className="bg-maya text-eerie w-40 h-12 rounded-md"
+          className="bg-maya text-eerie w-40 h-12 rounded-md flex items-center justify-center"
         >
           Donation Form
         </a>

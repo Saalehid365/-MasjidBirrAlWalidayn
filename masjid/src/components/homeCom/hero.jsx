@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center h-2/3 items-star pl-12 md:pt-16 md:pb-12 md:pl-4">
           <motion.h2
             className="text-7xl font-bold text-start md:text-4xl"
-            initial={{ x: -1000, opacity: 0 }}
+            initial={{ x: -200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
@@ -49,7 +49,7 @@ const Hero = () => {
             src={masjid}
             alt="masjid"
             className="w-full h-3/5 bg rounded-3xl shadow-white shadow-inner md:w-full md:h-96 md:rounded-none"
-            initial={{ y: 1000, opacity: 0 }}
+            initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.1 }}
           ></motion.img>

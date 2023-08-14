@@ -8,11 +8,13 @@ import Lessons from "./pages/lessons";
 import Navbar from "./components/navbar";
 import Appeal from "./pages/appeal";
 import Id365 from "./components/id365";
+import Revamp from "./assets/revamp";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        {/*
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +25,8 @@ function App() {
           <Route path="lessons" element={<Lessons />} />
         </Routes>
         <Id365 />
+        */}
+        <Revamp />
       </Router>
     </div>
   );

@@ -1,62 +1,42 @@
 import React from "react";
-import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="border-t-2 ">
-      <div className="flex h-72 justify-evenly items-start pt-6 md:flex-col md:items-center md:pb-6 md:h-full">
-        <div className="flex flex-col justify-evenly h-60 md:hidden">
-          <h3 className="font-bold text-2xl">Support</h3>
-          <Link>About</Link>
-          <Link>Contact</Link>
-          <Link>Ways to donate</Link>
-          <Link>Lessons</Link>
+    <div>
+      <div className="flex flex-col items-start pl-4 pt-12">
+        <h2 className="text-3xl text-teal-800">Al-Musa3ada</h2>
+        <div className="flex pt-4 w-40 justify-between text-xl">
+          <a href="/" className="text-blue-300">
+            <FaTwitter />
+          </a>
+          <a href="/" className="text-blue-300">
+            <FaInstagram />
+          </a>
+          <a href="/" className="text-blue-500">
+            <FaFacebook />
+          </a>
+          <a href="/" className="text-red-500">
+            <FaYoutube />
+          </a>
         </div>
-        <div className="h-60 flex flex-col pt-4 md:justify-center">
-          <h3 className="font-bold text-2xl md:text-4xl">Stay up to date</h3>
-          <div className="flex pt-20">
-            <input
-              placeholder="Email Address"
-              className="border border-eerie h-16 w-72 rounded-l-lg pl-4"
-            ></input>
-            <button className="h-16 bg-eerie text-magnolia w-24 rounded-r-lg font-bold">
-              Subscribe
-            </button>
-          </div>
-        </div>
-        <div className="md:pt-6">
-          <h3 className="font-bold text-2xl md:pb-4">Follow us</h3>
-          <div className="flex pt-20 w-60 justify-evenly md:pt-0">
-            <a
-              href="https://twitter.com/almusa3ada"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaTwitter className="text-2xl hover:scale-125 cursor-pointer" />
-            </a>
-            <a
-              href="https://www.instagram.com/almusa3ada/?hl=en-gb"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram className="text-2xl hover:scale-125 cursor-pointer" />
-            </a>
-
-            <a
-              href="https://m.facebook.com/people/Al-Musaada/100081314228196/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaFacebook className="text-2xl hover:scale-125 cursor-pointer" />
-            </a>
-            <button
-              onClick={() => (window.location = "mailto:yourmail@domain.com")}
-            >
-              <FaEnvelope className="text-2xl hover:scale-125 cursor-pointer" />
-            </button>
-          </div>
-        </div>
+      </div>
+      <div className="grid grid-cols-2 justify-items-start pl-4 mt-8 text-teal-800 h-32 text-lg">
+        <Link>Our Story</Link>
+        <Link>Projects</Link>
+        <Link>Ways to donate</Link>
+        <Link>Our Story</Link>
+        <Link>Our Story</Link>
+      </div>
+      <div className="mb-4">Copyright 2023 | Al-Musa3ada</div>
+      <div className="bg-gray-700 h-10 flex items-center justify-center text-sm">
+        <h3 className="pl-2 text-gray-400 ">
+          Designed and Developed by{" "}
+          <Link className="underline underline-offset-4 text-red-500 tracking-wider	">
+            IDesign365
+          </Link>
+        </h3>
       </div>
     </div>
   );

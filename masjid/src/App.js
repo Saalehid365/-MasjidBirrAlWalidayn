@@ -1,33 +1,33 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import WaysToDonate from "./pages/waysToDonate";
-import About from "./pages/about";
-import ContactUs from "./pages/contactUs";
-import Lessons from "./pages/lessons";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
-import Appeal from "./pages/appeal";
-import Id365 from "./components/id365";
-import Revamp from "./assets/revamp";
+import Home from "./pages/homepage/homes";
+import Footer from "./components/footer";
+import { ChakraProvider } from "@chakra-ui/react";
+import CartProvider from "./context/shopContext";
+import MasjidProject from "./pages/projectpages/masjidProject";
+import CongoPage from "./pages/projectpages/congoPage";
+import RamadaPage from "./pages/projectpages/ramadaPage";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        {/*
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="appeal" element={<Appeal />} />
-          <Route path="waysToDonate" element={<WaysToDonate />} />
-          <Route path="about" element={<About />} />
-          <Route path="contactUs" element={<ContactUs />} />
-          <Route path="lessons" element={<Lessons />} />
-        </Routes>
-        <Id365 />
-        */}
-        <Revamp />
-      </Router>
+    <div className="App pt-12">
+      <CartProvider>
+        <ChakraProvider>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route>
+                <Route index element={<Home />} />
+                <Route path="masjidProject" element={<MasjidProject />} />
+                <Route path="congoProject" element={<CongoPage />} />
+                <Route path="ramadhaanProject" element={<RamadaPage />} />
+              </Route>
+            </Routes>
+            <Footer />
+          </Router>
+        </ChakraProvider>
+      </CartProvider>
     </div>
   );
 }

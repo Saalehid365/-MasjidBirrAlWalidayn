@@ -25,7 +25,7 @@ const PopOutMenu = () => {
     <>
       <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
         <DrawerOverlay />
-        <DrawerContent mt={12} backgroundColor={"gray.200"}>
+        <DrawerContent mt={16} backgroundColor={"gray.200"}>
           <DrawerCloseButton />
           <DrawerHeader borderBottomWidth="1px">Al-Musa3ada</DrawerHeader>
           <div className="">
@@ -55,6 +55,13 @@ const PopOutMenu = () => {
                   Cairo Masjid
                 </Link>
                 <Link
+                  to="libyaProject"
+                  className="border-b-2 pl-4 h-10 bg-gray-700 flex items-center"
+                  onClick={onClose}
+                >
+                  Libya
+                </Link>
+                <Link
                   to="congoProject"
                   className="border-b-2 pl-4 h-10 bg-gray-700 flex items-center"
                   onClick={onClose}
@@ -70,11 +77,16 @@ const PopOutMenu = () => {
                 </Link>
               </div>
             )}
-            <div className="flex justify-between h-12 border-b-2 items-center px-4 border-b-2 border-black">
+            <div className="flex justify-between h-12 border-b-2 items-center px-4 border-black">
+              <Link to="lessonsPage">Lessons</Link>
+            </div>
+            <div className="flex justify-between h-12 border-b-2 items-center px-4 border-black">
               <Link>About</Link>
             </div>
             <div className="flex justify-between h-12 border-b-2 items-center px-4">
-              <Link>Contact</Link>
+              <Link to="contactPage" onClick={onClose}>
+                Contact
+              </Link>
             </div>
           </div>
         </DrawerContent>

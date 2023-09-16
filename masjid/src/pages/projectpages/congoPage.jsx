@@ -6,7 +6,7 @@ const CongoPage = () => {
       <img
         src="https://i.guim.co.uk/img/media/40ba30880ddd3ed87a1e12c062b478e95e729b05/0_351_5952_3571/master/5952.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=42298abd1b963b5f6b770750b51ea046"
         alt="congoImg"
-        className=""
+        className="h-60 w-full"
       ></img>
       <div className="bg-blue-500 text-white font-sans font-bold pt-4">
         <h2 className="text-3xl">Give whatever you can</h2>

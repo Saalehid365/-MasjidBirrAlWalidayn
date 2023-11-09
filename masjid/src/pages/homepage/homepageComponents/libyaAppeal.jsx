@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const LibyaAppeal = () => {
   return (
-    <div className="mt-20 mb-4">
+    <div className="mt-16 mb-4">
       <div className="font-serif">
         <h2 className="text-4xl uppercase">Libya Appeal</h2>
         <h3 className="text-2xl pt-4">Aid the people of libya</h3>

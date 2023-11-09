@@ -15,20 +15,20 @@ const Navbar = () => {
   return (
     <div className="flex justify-between h-20 bg-blue-500 items-center fixed w-full top-0 sm:w-screen sm:h-14">
       <div className="">
-        <h2 className="pl-4 text-white text-2xl">Al-Musa3ada</h2>
+        <h2 className="pl-4 text-white text-2xl font-bold">Al-Musa3ada</h2>
       </div>
-      <div className="flex h-full items-center ">
+      <div className="sm:flex h-full items-center hidden">
         <Link className="bg-red-600 h-full flex items-center w-16 justify-center text-white text-sm">
           Donate
         </Link>
         <div
-          className="bg-vergi h-full w-12 flex justify-center items-center "
+          className="bg-vergi h-full w-12 sm:flex justify-center items-center hidden"
           onClick={handleNav}
         >
           <FaAlignJustify className="text-2xl text-white" />
         </div>
       </div>
-      <div className="hidden md:flex md:text-xl md:pr-4 w-1/3 justify-between pr-12 text-white font-bold sm:hidden">
+      <div className="flex md:flex md:text-xl md:pr-4 w-1/3 justify-between pr-12 text-white font-bold sm:hidden">
         <Link>
           <div className="flex items-center  ">
             <p className="mr-2">Home</p>

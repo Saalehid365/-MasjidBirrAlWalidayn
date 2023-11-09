@@ -26,8 +26,7 @@ const Footer = () => {
         <Link>Our Story</Link>
         <Link>Projects</Link>
         <Link>Ways to donate</Link>
-        <Link>Our Story</Link>
-        <Link>Our Story</Link>
+        <Link>Contact us</Link>
       </div>
       <div className="mb-4">Copyright 2023 | Al-Musa3ada</div>
       <div className="bg-gray-700 h-10 flex items-center justify-center text-sm">

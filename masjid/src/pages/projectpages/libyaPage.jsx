@@ -2,7 +2,7 @@ import React from "react";
 
 const LibyaPage = () => {
   return (
-    <div className="pt-4">
+    <div className="pt-2">
       <img
         src="https://s.abcnews.com/images/International/flood-damage-derna-libya-gty-230_hpMain_20230915-063733.jpg"
         alt="congoImg"

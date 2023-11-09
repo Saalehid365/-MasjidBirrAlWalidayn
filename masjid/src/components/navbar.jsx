@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { FaAlignJustify } from "react-icons/fa";
+import { FaAlignJustify, FaArrowDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import PopOutMenu from "./popOutMenu";
@@ -13,20 +13,47 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between h-16 bg-blue-500 items-center fixed w-full top-0 ">
+    <div className="flex justify-between h-20 bg-blue-500 items-center fixed w-full top-0 sm:w-screen sm:h-14">
       <div className="">
-        <h2 className="pl-4 text-white">Al-Musa3ada</h2>
+        <h2 className="pl-4 text-white text-2xl">Al-Musa3ada</h2>
       </div>
-      <div className="flex h-full items-center">
+      <div className="flex h-full items-center ">
         <Link className="bg-red-600 h-full flex items-center w-16 justify-center text-white text-sm">
           Donate
         </Link>
         <div
-          className="bg-vergi h-full w-12 flex justify-center items-center"
+          className="bg-vergi h-full w-12 flex justify-center items-center "
           onClick={handleNav}
         >
-          <FaAlignJustify className="text-2xl" />
+          <FaAlignJustify className="text-2xl text-white" />
         </div>
+      </div>
+      <div className="hidden md:flex md:text-xl md:pr-4 w-1/3 justify-between pr-12 text-white font-bold sm:hidden">
+        <Link>
+          <div className="flex items-center  ">
+            <p className="mr-2">Home</p>
+          </div>
+        </Link>
+        <Link>
+          <div className="flex   items-center">
+            <p className="mr-2">Projects</p>
+          </div>
+        </Link>
+        <Link>
+          <div className="flex   items-center">
+            <p className="mr-2">Lessons</p>
+          </div>
+        </Link>
+        <Link>
+          <div className="flex   items-center">
+            <p className="mr-2">About</p>
+          </div>
+        </Link>
+        <Link>
+          <div className="flex   items-center">
+            <p className="mr-2">Contact</p>
+          </div>
+        </Link>
       </div>
       <PopOutMenu />
     </div>

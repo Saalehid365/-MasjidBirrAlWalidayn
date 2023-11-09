@@ -47,9 +47,11 @@ const MasjidProject = () => {
           <span className="text-green-500 font-extrabold"> CAIRO</span>
         </p>
         <p className="pt-4 text-base">
-          MARKAZ IMĀM AL-BUKHĀRĪ It is with great happiness & joy that we
-          announce our intention to build a building and outright own it to
-          further the Da’wah in Cairo.
+          With the permission of Allah, we are embarking on an endeavor to
+          assist in the completion of a mosque for the Ahlul Sunnah community.
+          This mosque aims to be a truly awe-inspiring place for the worship of
+          Allah. As of May 4th, 2023, Shaykh Umar Quinn tweeted that the current
+          location is a rarity in Egypt.
         </p>
         <img src={masjidleft} alt={masjidleft} className="mt-4 " />
         <p className="font-bold pt-6 uppercase">
@@ -57,13 +59,15 @@ const MasjidProject = () => {
           <span className="text-green-500">Masjid Bir Al-Walidayn: </span>
         </p>
         <p className="pt-4 text-base">
-          The Da’wah began in 2011 when we first set up & established a regular
-          fortnightly lesson – “The 3 Fundamental Principles”. In the early
-          years we moved from location to location, hiring halls wherever they
-          were available to keep the Da’wah going. As upon the advice of the
-          Scholars, we began studying books one after the other and very quickly
-          our lessons became weekly, and for some time now we have increased to
-          2 classes a week, such was the enthusiasm…
+          The funds we raise will be dedicated to the essential aspects of the
+          project, including electrical work, plumbing, and both the exterior
+          and interior finishing, insha Allah. We at Almusa3ada are grateful to
+          have the guidance of Shaykh Majdi and Shaykh Raha Batts in our
+          endeavors. We humbly appeal for your support in realizing the
+          construction of this mosque in 6th October, Egypt. Shaykh Majdi, a
+          student of Sheikh Ali Waseefi and an esteemed Imam of Masjid at Taqwa,
+          will serve as the Imam and teacher at Masjid Birr Al Walidayn. May
+          Allah grant us success in this noble undertaking. Aameen."
         </p>
       </div>
       <div className="bg-gray-200 px-6 text-start py-4 mt-10 ">

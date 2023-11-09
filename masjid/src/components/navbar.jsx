@@ -13,9 +13,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between h-20 bg-blue-500 items-center fixed w-full top-0 sm:w-screen sm:h-14">
+    <div className="flex justify-between h-20 bg-blue-300 items-center fixed w-full top-0 sm:w-screen sm:h-14">
       <div className="">
-        <h2 className="pl-4 text-white text-2xl font-bold">Al-Musa3ada</h2>
+        <h2 className="pl-4 text-white text-2xl font-bold sm:text-xl">
+          Al-Musa3ada
+        </h2>
       </div>
       <div className="sm:flex h-full items-center hidden">
         <Link className="bg-red-600 h-full flex items-center w-16 justify-center text-white text-sm">
